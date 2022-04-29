@@ -7,6 +7,7 @@ analysis was performed to identify how many steps were required before the outco
 
 ## Components
 Data
+- data can be found at DOI: https://doi.org/10.5683/SP3/PZKWTB
 - files are structured as ROW: participant observation , COL: gait or demographic outcome
 
 1) gait_metric_means.csv
