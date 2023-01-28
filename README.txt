@@ -19,6 +19,9 @@ The percentage of similar data when stability was reached for each outcome and p
 3) steps2stability_data.csv
 - The number of steps when stability was reached for each outcome and participant.
 
+4) ntotal_steps.csv
+- The number of total steps recorded for each outcome and participant.
+
 Code
 1) mainAnalysis.R
 script ingests data files, cleans data, and performs the primary analysis of the project (generalized linear mixed effects model).
@@ -39,6 +42,7 @@ BMI - body mass index: units kg/m^2. float: positive
 Klgrade - severity of structure signs of osteoarthritis. int: Empty, 2, 3, 4
 
 ## Usage
-1) Open mainAnalysis.R
-2) Run script section by section. NOTE: ensure the first section installs and loads all necessary libraries
-3) Data tables are output into /data/ folder
+1) Dowload data from repo linked above. Place in folder with mainAnalysis.R
+2) Open mainAnalysis.R
+3) Run script section by section. NOTE: ensure the first section installs and loads all necessary libraries
+4) Data tables are output into /results/ folder
